@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Información</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html"><span class="enlaces_izq">Inicio</span></a>
+        <a href="firmar.html"><span class="enlaces_izq">Firmar</span></a>
+        <a href="https://fundacionloyola.com/vguadalupe/"></a><img id="img_nav" src="img/logotipo.png"></a>
+    </nav>
+    <header>
+        ¿QUÉ PRETENDEMOS QUE CAMBIE?
+    </header>
+    <main>
+        <article>
+            <table>
+                <tr>
+                    <td colspan="2" class="title">Repartos más optimizados</td>
+                </tr>
+                <tr class="contenido">
+                    <td>
+                        <ul>
+                            <li>Tamaños más ajustados, adaptados al contenido.</li>
+                            <li>Que no contengan materiales innecesarios.</li>
+                            <li>Que contenga relleno solo cuando sea necesario, como en los productos frágiles.</li>
+                            <li>Que todos los materiales sean fácilmente reciclables.</li>
+                        </ul>
+                    </td>
+                    <td><img src="img/cajas.jpg"></td>
+                </tr>
+            </table>
+        </article>
+        <article>
+            <table>
+                <tr>
+                    <td colspan="2" class="title">Mejoras en las políticas de embalaje y envío</td>
+                </tr>
+                <tr class="contenido">
+                    <td><img src="img/entregas.png"></td>
+                    <td>
+                        <ul>
+                            <li>Agrupar los pedidos por destinos.</li>
+                            <li>Vehículos con la carga completa y no a medias.</li>
+                            <li>Habilitar puntos de recogida.</li>
+                            <li>Entregas en medios sostenibles siempre que sea posible.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </article>
+        <article>
+            <form method="post" action="formulario.php">
+                <table id="table_form">
+                    <tr>
+                        <td class="title" id="title_form" colspan="2">Firma rellenando este formulario</td>
+                    </tr>
+                    <tr>
+                        <td>Nombre: </td>
+                        <td><input type="text" name="nombre" placeholder="Nombre" required></td>
+                    </tr>
+                    <tr>
+                        <td>Primer apellido: </td>
+                        <td><input type="text" name="apellido1" placeholder="Primer apellido" required></td>
+                    </tr>
+                    <tr>
+                        <td>Segundo apellido: </td>
+                        <td><input type="text" name="apellido2" placeholder="Segundo apellido" required></td>
+                    </tr>
+                    <tr>
+                        <td class="subtitle_form" colspan="2">Indica tu género</td>
+                    </tr>
+                    <tr>
+                        <td>Másculino</td>
+                        <td><input type="radio" name="sexo" value="M" checked></td>
+                    </tr>
+                    <tr>
+                        <td>Femenino</td>
+                        <td><input type="radio" name="sexo" value="F"></td>
+                    </tr>
+                    <tr>
+                        <td>Otro</td>
+                        <td><input type="radio" name="sexo" value="O"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="subtitle_form">Firmas en las que quieras participar</td>
+                    </tr>
+                    <tr>
+                        <td>Firmas para mejorar la política de embalaje y envío</td>
+                        <td><input type="checkbox" name="firmas[]" value="Firma para embalajes"></td>
+                    </tr>
+                    <tr>
+                        <td>Firmas para mejorar la optimización de repartos</td>
+                        <td><input type="checkbox" name="firmas[]" value="Firma para repartos"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="subtitle_form">Aceptar términos y condiciones</td>
+                    </tr>
+                    <tr>
+                        <td>Aceptas los términos y condiciones</td>
+                        <td><input type="checkbox" name="terminos" value="terminosOk" required></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" name="enviar"></td>
+                        <td><input type="reset" name="reset"></td>
+                    </tr>
+                </table>
+            </form>
+        </article>
+    </main>
+    <footer>
+        <div id="arbol">
+            <table>
+                <tr id="table_container">
+                    <td class="border_right"><a href="index.html">Inicio</a></td>
+                    <td><a href="firmar.html">Información</a></td>
+                </tr>
+            </table>
+        </div>
+        <div id="copy">
+            Página realizada por Rubén Sancho Jiménez en la ESC. Virgen de guadalupe.<br>
+            <br>
+            © Rubén_DAW 2023
+        </div>
+    </footer>
+</body>
+</html>
