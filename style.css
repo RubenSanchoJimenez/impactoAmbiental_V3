@@ -31,26 +31,29 @@ header{
 main{
     background-color: white;
     border: 0px;
-    padding: 50px 50px 0px 50px;
+    padding: 50px;
 }
 article{
     padding: 2%;
     background-color: rgb(56, 107, 179);
     color: white;
-    margin-bottom: 50px;
     border-radius: 20px;
+}
+article+article{
+    margin-top: 50px;
 }
 footer{
     background-color: rgb(56, 107, 179);
     color: white;
     padding: 50px;
 }
+
+/*Personalización*/
+
 a{
     text-decoration: none;
     color: white;
 }
-
-/*Personalización*/
 
 /*Nav*/
 .enlaces_izq{
@@ -136,5 +139,8 @@ li{
 #table_form td{
     border: 2px solid white;
     padding: 10px;
+}
+form input[type="text"]{ /*Estilo por atributo*/
+    padding-left: 10px;
 }
 
