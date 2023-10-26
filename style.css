@@ -6,7 +6,6 @@ html body{
 }
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    height: 100vh;
     max-width: 1280px;
     font-size: large;
 }
@@ -119,25 +118,17 @@ li{
 #formulario{
     text-align: justify;
 }
-#title_form{
-    text-align: center;
-    background-color: white;
-    color: rgb(56, 107, 179);
-}
 .subtitle_form{
-    padding: 50px 0px;
     text-align: center;
-    font-weight: bolder;
     background-color: white;
     color: rgb(56, 107, 179);
+    padding: 10px 0px;
+    margin: 20px auto;
 }
-#table_form{
-    text-align: justify;
-    border: 2px solid white;
-}
-#table_form td{
-    border: 2px solid white;
-    padding: 10px;
+form div{
+    width: 500px;
+    text-align: left;
+    margin: 0 auto;
 }
 form input[type="text"]{ /*Estilo por atributo*/
     padding-left: 10px;

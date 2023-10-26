@@ -53,60 +53,21 @@
         </article>
         <article>
             <form method="POST" action="formulario.php">
-                <table id="table_form">
-                    <tr>
-                        <td class="title" id="title_form" colspan="2">Firma rellenando este formulario</td>
-                    </tr>
-                    <tr>
-                        <td>Nombre: </td>
-                        <td><input type="text" name="nombre" placeholder="Nombre" required></td>
-                    </tr>
-                    <tr>
-                        <td>Primer apellido: </td>
-                        <td><input type="text" name="apellido1" placeholder="Primer apellido" required></td>
-                    </tr>
-                    <tr>
-                        <td>Segundo apellido: </td>
-                        <td><input type="text" name="apellido2" placeholder="Segundo apellido" required></td>
-                    </tr>
-                    <tr>
-                        <td class="subtitle_form" colspan="2">Indica tu género</td>
-                    </tr>
-                    <tr>
-                        <td>Másculino</td>
-                        <td><input type="radio" name="sexo" value="M" checked></td>
-                    </tr>
-                    <tr>
-                        <td>Femenino</td>
-                        <td><input type="radio" name="sexo" value="F"></td>
-                    </tr>
-                    <tr>
-                        <td>Otro</td>
-                        <td><input type="radio" name="sexo" value="O"></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2" class="subtitle_form">Firmas en las que quieras participar</td>
-                    </tr>
-                    <tr>
-                        <td>Firmas para mejorar la política de embalaje y envío</td>
-                        <td><input type="checkbox" name="firmas[]" value="Firma para embalajes"></td>
-                    </tr>
-                    <tr>
-                        <td>Firmas para mejorar la optimización de repartos</td>
-                        <td><input type="checkbox" name="firmas[]" value="Firma para repartos"></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2" class="subtitle_form">Aceptar términos y condiciones</td>
-                    </tr>
-                    <tr>
-                        <td>Aceptas los términos y condiciones</td>
-                        <td><input type="checkbox" name="terminos" value="terminosOk" required></td>
-                    </tr>
-                    <tr>
-                        <td><input type="submit" name="enviar"></td>
-                        <td><input type="reset" name="reset"></td>
-                    </tr>
-                </table>
+                <div class="subtitle_form">Firma rellenando este formulario</div>
+                <div><input type="text" name="nombre" placeholder="Nombre" required></div>
+                <div><input type="text" name="apellido1" placeholder="Primer apellido" required></div>
+                <div><input type="text" name="apellido2" placeholder="Segundo apellido" required></div>
+                <div class="subtitle_form">Indica tu género</div>
+                <div><input type="radio" name="sexo" value="M" checked> Másculino</div>
+                <div><input type="radio" name="sexo" value="F"> Femenino</div>
+                <div><input type="radio" name="sexo" value="O"> Otro</div>
+                <div class="subtitle_form">Firmas en las que quieras participar</div>
+                <div><input type="checkbox" name="firmas[]" value="Firma para embalajes"> Firmas para mejorar la política de embalaje y envío</div>
+                <div><input type="checkbox" name="firmas[]" value="Firma para repartos"> Firmas para mejorar la optimización de repartos </div>
+                <div class="subtitle_form">Aceptar términos y condiciones</div>
+                <div><input type="checkbox" name="terminos" value="terminosOk" required> Aceptas los términos y condiciones</div>
+                <div><input type="submit" name="enviar"></div>
+                <div><input type="reset" name="reset"></div>
             </form>
         </article>
     </main>
