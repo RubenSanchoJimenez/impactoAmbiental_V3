@@ -1,7 +1,6 @@
 /*Configuración básica*/
 html body{
     margin: 0;
-    padding: 0;
     text-align: center;
 }
 body{
@@ -11,41 +10,47 @@ body{
 }
 
 /*Layout*/
-nav{
+nav {
     /*position: sticky;*/
     align-items: center;
-    top: 0px;
-    height: 70px;
-    padding: 0px 50px;
+    top: 0;
+    height: 5.46875%; /* (70 / 1280) * 100% */
+    padding: 0 3.90625%; /* (50 / 1280) * 100% */
     background-color: white;
     display: flex;
 }
-header{
+
+header {
     background-color: rgb(56, 107, 179);
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: xx-large;
-    padding: 50px;
+    padding: 3.90625%; /* (50 / 1280) * 100% */
 }
-main{
+
+main {
     background-color: white;
-    border: 0px;
-    padding: 50px;
+    border: 0;
+    padding: 3.90625%; /* (50 / 1280) * 100% */
 }
-article{
-    padding: 20px;
+
+article {
+    padding: 1.5625%; /* (20 / 1280) * 100% */
     background-color: rgb(56, 107, 179);
     color: white;
-    border-radius: 20px;
+    border-radius: 1.5625%; /* (20 / 1280) * 100% */
 }
-article+article{
-    margin-top: 50px;
+
+article+article {
+    margin-top: 3.90625%; /* (50 / 1280) * 100% */
 }
-footer{
+
+footer {
     background-color: rgb(56, 107, 179);
     color: white;
-    padding: 50px;
+    padding: 3.90625%; /* (50 / 1280) * 100% */
 }
+
 
 /*Personalización*/
 
