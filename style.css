@@ -156,3 +156,26 @@ form input[type="text"]{ /*Estilo por atributo*/
         font-size: 40px;
     }
   }
+
+  @media screen and (orientation: portrait) {
+    /* Reglas de estilo para orientación vertical */
+    nav{
+        height: 100px;
+    }
+    .enlaces_izq{
+        padding: 20px;
+        font-size: xx-large;
+    }
+    img{
+        height: 200px;
+    }
+    footer span{
+        font-size: 40px;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    nav{
+        height: 70px;
+    }
+  }
